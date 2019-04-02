@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    >
+
+    <include
+        android:id="@+id/include_panel"
+        layout="@layout/top_seeking"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:padding="10dp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="70dp"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="70dp"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="70dp"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>

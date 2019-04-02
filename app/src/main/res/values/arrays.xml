@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="group_num">
+    <item>https</item>
+    <item>http</item>
+    <item>ftp</item>
+    <item>file</item>
+    <item>gopher</item>
+    <item>mailto</item>
+    <item>news</item>
+</string-array>
+</resources>
